@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #040404;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,10 +116,10 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
+		font-size: 18pt;
+		font-weight: 00;
 		line-height: 1.75;
 	}
 
@@ -164,6 +164,8 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-weight: 500;
+		color: #929292;
 	}
 
 	h1 {
@@ -209,6 +211,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		color: #929292;
 	}
 
 	h3 {
@@ -2686,6 +2689,7 @@ input, select, textarea {
 
 				.tiles article > a h2 {
 					margin: 0;
+					color: #ffffff;
 				}
 
 				.tiles article > a .content {
@@ -2705,27 +2709,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #2b283d;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #3d2424;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #19230d;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #3d2424;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #244e3e;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #4b1c74;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3161,7 +3165,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #131313;
 	}
 
 		#footer > .inner {
