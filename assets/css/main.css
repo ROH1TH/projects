@@ -2589,6 +2589,11 @@ input, select, textarea {
 			object-fit: cover;
 		}
 
+		p {
+			font-weight: 500;
+			-webkit-text-stroke: .5px;
+		}
+
 			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
